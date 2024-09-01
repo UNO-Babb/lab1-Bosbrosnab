@@ -8,11 +8,11 @@ def main():
   #Say hello
   print("hello")
   #Ask for the user's name
-  name=input("Put your name here: ")
+  name = input("Put your name here: ")
   #Use the user's name in the program.
-  print("hello",name)
+  print("hello", name)
   #Ask the user for their age.
-  age=int(input("Put your age here: "))
+  age = int(input("Put your age here: "))
   #Tell the user what year they were born in.
   print(2024-age)
   #Assume that they have not had their birthday yet this year.
